@@ -1,0 +1,22 @@
+{
+  "name": "oidc-backend",
+  "version": "1.0.0",
+  "description": "Proof of Concept OpenID Connect client for getting verified person data by using [yes®](https://www.yes.com)",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "log-that-http": "^1.0.1",
+    "openid-client": "^3.14.0",
+    "request": "^2.80.0"
+  },
+  "author": "Sebastian Ebling <sebastian@yes.com>",
+  "license": "ISC",
+  "devDependencies": {}
+}
